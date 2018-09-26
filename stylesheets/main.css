@@ -1,0 +1,8 @@
+body{
+    background-image: url("../images/1.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
