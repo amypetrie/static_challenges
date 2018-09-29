@@ -33,8 +33,9 @@ h4{
   text-align:center;
 }
 
-article{
-  width:33%;
+.landmark{
+  column-count: 3;
+  column-width: 33%;
   text-align: left;
 }
 
