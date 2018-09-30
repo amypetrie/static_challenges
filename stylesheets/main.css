@@ -11,26 +11,39 @@ body{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 74%;
+    border: 20px;
+}
+
+.all{
+  width: 50%;
+  height: 100%;
+  background-color: rgba(61, 60, 59, 0.7);
+  position: absolute;
+}
+
+header{
+  background-color: rgba(21, 21, 20, 0.7);
 }
 
 h1{
   float: left;
   font-size: 200%;
   width: 100%;
-}
-
-aside{
-  float: right;
-  font-size: 50%;
-  width: 10%;
+  padding: 10px;
+  padding-bottom:
 }
 
 h4{
   font-size: 120%;
   background-color: #DD8D47;
-  width: 100%;
+  padding: 5px;
   word-spacing: 150px;
   text-align:center;
+}
+
+main{
+  border-width: 50px;
+  margin: 20px;
 }
 
 .landmark{
@@ -39,6 +52,13 @@ h4{
   text-align: left;
 }
 
-h3{
-  /* width: 33%; */
+img{
+  border: 3px solid #DD8D47;
+  border-width: thin;
+  margin-right: 10px;
+}
+
+footer{
+  float: bottom;
+  width: 100%;
 }
