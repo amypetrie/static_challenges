@@ -11,6 +11,7 @@ body{
     font-family: Verdana, Geneva, sans-serif;
     font-size: 74%;
     margin-left: 50%;
+    position: relative;
 }
 
 .container{
@@ -23,26 +24,32 @@ body{
 #header{
   width: 100%;
   background-color: rgba(21, 21, 20, 0.7);
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom:10px;
 }
 
 #main_title{
   float: left;
   font-size: 185%;
+  padding-left: 10px;
 }
 
 #login{
   float: right;
   font-size: 75%;
+  padding-right: 10px;
 }
 
 #top_links{
   column-count: 3;
   column-width: 33%;
-  font-size: 100%;
+  font-size: 125%;
   background-color: #CD5B05;
-  /* padding: 5px; */
   text-align: center;
   width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 h3{
