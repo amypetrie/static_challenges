@@ -7,18 +7,18 @@ body{
     background-size: cover;
     width: 50%;
     height: 100%;
-    float: right;
     color: white;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 74%;
     border: 20px;
+    margin-left: 50%;
 }
 
 .all{
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: rgba(61, 60, 59, 0.7);
-  position: absolute;
+  position: relative;
 }
 
 header{
@@ -30,35 +30,43 @@ h1{
   font-size: 200%;
   width: 100%;
   padding: 10px;
-  padding-bottom:
 }
 
 h4{
-  font-size: 120%;
+  font-size: 100%;
   background-color: #DD8D47;
   padding: 5px;
   word-spacing: 150px;
-  text-align:center;
+  text-align: center;
+}
+
+h5{
+  font-size: 135%;
 }
 
 main{
   border-width: 50px;
   margin: 20px;
+  font-size: 80%;
 }
 
 .landmark{
+  padding-top: 20px;
   column-count: 3;
   column-width: 33%;
+  column-gap: 15px;
   text-align: left;
+  font-size: 115%;
 }
 
 img{
   border: 3px solid #DD8D47;
   border-width: thin;
-  margin-right: 10px;
 }
 
 footer{
-  float: bottom;
-  width: 100%;
+  width: 98%;
+  bottom: 0;
+  height: 60px;
+  position: absolute;
 }
